@@ -7,10 +7,15 @@ const clone = require('lodash.clonedeep');
 const { clientSrcPath, buildPath, assetsBuildPath } = require('kyt-utils/paths')();
 
 const cssStyleLoaders = [
-  'style-loader',
+  'isomorphic-style-loader',
   {
     loader: 'css-loader',
-    options: { modules: true, sourceMap: true, localIdentName: '[name]-[local]--[hash:base64:5]' },
+    options: {
+      modules: true,
+      sourceMap: true,
+      localIdentName: '[name]-[local]--[hash:base64:5]',
+      minimize: "-autoprefixer"
+    },
   },
   'postcss-loader',
 ];
