@@ -1,5 +1,5 @@
 {
-  "name": "kyt",
+  "name": "@n8mellis/kyt",
   "version": "0.5.4",
   "description": "kyt is a toolkit that encapsulates and manages the configuration for web apps.",
   "author": "NYTimes",
@@ -75,6 +75,7 @@
   "keywords": [
     "kyt",
     "core",
-    "kyt-core"
+    "kyt-core",
+    "n8mellis"
   ]
 }
