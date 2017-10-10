@@ -1,6 +1,6 @@
 {
   "name": "@n8mellis/kyt",
-  "version": "0.5.5",
+  "version": "0.5.6",
   "description": "kyt is a toolkit that encapsulates and manages the configuration for web apps.",
   "author": "NYTimes",
   "license": "Apache-2.0",
